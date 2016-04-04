@@ -27,7 +27,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Phone {
 
-  String message() default "Allowed characters: digits, '-', '(', ')', '+' and space. The '+' character allowed only at the beginning. The number of start and end brackets must be the same.";
+  String message() default "Allowed characters: digits, '-', '(', ')', '+' and space. The '+' character allowed only at the beginning.";
 
   Class<?>[] groups() default {};
 
